@@ -5,18 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class startgame : MonoBehaviour
 {
-
-
     public void jobSelect()
     {
         SceneManager.LoadScene("jobSelector");
     }
-
-
-
-
-
-
-    
-    
 }
