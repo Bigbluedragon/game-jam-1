@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class startgame : MonoBehaviour
+public class BartenderJobSelect : MonoBehaviour
 {
     public void jobSelect()
     {
-        SceneManager.LoadScene("jobSelector");
+        SceneManager.LoadScene("BarLife");
     }
 }
