@@ -9,10 +9,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb;
 
+    private Vector2 boxSize = new Vector2(0.1f, 1f);
     private Vector2 moveDirection;
    
     void Update()
     {
+     
         ProcessInputs();
     }
 
@@ -36,10 +38,5 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
-
-   
-    
-
-
 
 }
