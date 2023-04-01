@@ -171,7 +171,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -347,8 +347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 421.7, y: 240.64}
-  m_SizeDelta: {x: 125.8914, y: 32.7178}
+  m_AnchoredPosition: {x: 155, y: 180}
+  m_SizeDelta: {x: 64.012, y: 32.7178}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &579119735
 MonoBehaviour:
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -66.075714, w: 0}
+  m_margin: {x: 0, y: 0, z: -108.153656, w: -3.5710144}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
