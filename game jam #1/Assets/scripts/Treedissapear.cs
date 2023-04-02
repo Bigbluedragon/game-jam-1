@@ -1,20 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Treedissapear : MonoBehaviour
 
 
 {
+    public Triangle.gameObject;
+    
 
     //replace traingle with tree
-    public GameObject Triangle;
+   
 
     public bool isAlive;
 
     public void killTree()
     {
-        Triangle.SetActive(false);
+        Traingle.gameObject.SetActive(false);
     }
 
 
