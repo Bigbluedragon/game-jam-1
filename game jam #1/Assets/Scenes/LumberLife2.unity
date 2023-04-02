@@ -72852,6 +72852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2245982535547054167, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2761413228812292746, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
       propertyPath: m_Name
       value: Tree
@@ -72902,3 +72906,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+--- !u!1 &6306185309145829147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2761413228812292746, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+  m_PrefabInstance: {fileID: 6306185309145829146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6306185309145829148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306185309145829147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b5f8809eabaf047912d5216e37afe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Triangle: {fileID: 6306185309145829147}
+  isAlive: 1
