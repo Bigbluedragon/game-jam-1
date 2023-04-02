@@ -19,26 +19,26 @@ public class Interact : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if(isInRange)
+        if (isInRange)
         {
-            if(Input.GetKeyDown(InteractKey))
+            if (Input.GetKeyDown(InteractKey))
             {
                 interactAction.Invoke();
             }
         }
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             isInRange = true;
             Debug.Log("player is now in range");
@@ -59,3 +59,4 @@ public class Interact : MonoBehaviour
 
 
     }
+}
