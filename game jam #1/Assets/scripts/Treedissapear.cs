@@ -7,7 +7,7 @@ public class Treedissapear : MonoBehaviour
 
 
 {
-    public Triangle.gameObject;
+    public GameObject Triangle;
     
 
     //replace traingle with tree
@@ -17,7 +17,7 @@ public class Treedissapear : MonoBehaviour
 
     public void killTree()
     {
-        Traingle.gameObject.SetActive(false);
+        Triangle.gameObject.SetActive(false);
     }
 
 
