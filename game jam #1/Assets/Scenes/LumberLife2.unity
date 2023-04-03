@@ -72753,6 +72753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 5602802676640529843, guid: 415f678d1d3846c46b98b31ca9b25c71, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5602802676640529845, guid: 415f678d1d3846c46b98b31ca9b25c71, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -72904,6 +72908,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5510420090202129767, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510420090202129767, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510420090202129767, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510420090202129767, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 022870e0897b0cc448aa6bdbb8ba2120, type: 3}
 --- !u!1 &6306185309145829147 stripped
@@ -72924,4 +72944,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Triangle: {fileID: 6306185309145829147}
+  OneHp: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  ZeroHp: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
+  TwoHp: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
+  count: 0
+  text: {fileID: 579119735}
   isAlive: 1
+--- !u!114 &6306185309145829149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306185309145829147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121d0c025d4d41841bd320745ad05941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  InteractKey: 101
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6306185309145829148}
+        m_TargetAssemblyTypeName: Treedissapear, Assembly-CSharp
+        m_MethodName: HurtTree
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
